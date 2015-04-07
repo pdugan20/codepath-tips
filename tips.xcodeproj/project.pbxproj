@@ -17,7 +17,7 @@
 		E77B42DE1AD2FD9F00D92541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77B42DC1AD2FD9F00D92541 /* Main.storyboard */; };
 		E77B42E01AD2FD9F00D92541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77B42DF1AD2FD9F00D92541 /* Images.xcassets */; };
 		E77B42EF1AD2FD9F00D92541 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B42EE1AD2FD9F00D92541 /* tipsTests.swift */; };
-		E7977B711AD4981700B48B00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7977B6F1AD4981700B48B00 /* LaunchScreen.xib */; };
+		E7977B741AD49A8D00B48B00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7977B721AD49A8D00B48B00 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		E77B42E81AD2FD9F00D92541 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77B42ED1AD2FD9F00D92541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77B42EE1AD2FD9F00D92541 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
-		E7977B701AD4981700B48B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E7977B731AD49A8D00B48B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		E77B42D51AD2FD9F00D92541 /* tips */ = {
 			isa = PBXGroup;
 			children = (
-				E7977B6F1AD4981700B48B00 /* LaunchScreen.xib */,
+				E7977B721AD49A8D00B48B00 /* LaunchScreen.xib */,
 				E77B42D81AD2FD9F00D92541 /* AppDelegate.swift */,
 				E77B42DA1AD2FD9F00D92541 /* ViewController.swift */,
 				E77B42DC1AD2FD9F00D92541 /* Main.storyboard */,
@@ -227,7 +227,7 @@
 				E77948121AD47C30006D2E5E /* Roboto-Regular.ttf in Resources */,
 				E779480C1AD4780F006D2E5E /* OpenSans-Bold.ttf in Resources */,
 				E779480D1AD4780F006D2E5E /* OpenSans-Light.ttf in Resources */,
-				E7977B711AD4981700B48B00 /* LaunchScreen.xib in Resources */,
+				E7977B741AD49A8D00B48B00 /* LaunchScreen.xib in Resources */,
 				E77948111AD47C30006D2E5E /* Roboto-Light.ttf in Resources */,
 				E779480E1AD4780F006D2E5E /* OpenSans-Regular.ttf in Resources */,
 				E77B42E01AD2FD9F00D92541 /* Images.xcassets in Resources */,
@@ -280,10 +280,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E7977B6F1AD4981700B48B00 /* LaunchScreen.xib */ = {
+		E7977B721AD49A8D00B48B00 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7977B701AD4981700B48B00 /* Base */,
+				E7977B731AD49A8D00B48B00 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
