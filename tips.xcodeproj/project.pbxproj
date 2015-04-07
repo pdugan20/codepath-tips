@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E779480C1AD4780F006D2E5E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E77948091AD4780F006D2E5E /* OpenSans-Bold.ttf */; };
+		E779480D1AD4780F006D2E5E /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E779480A1AD4780F006D2E5E /* OpenSans-Light.ttf */; };
+		E779480E1AD4780F006D2E5E /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E779480B1AD4780F006D2E5E /* OpenSans-Regular.ttf */; };
+		E77948111AD47C30006D2E5E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E779480F1AD47C30006D2E5E /* Roboto-Light.ttf */; };
+		E77948121AD47C30006D2E5E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E77948101AD47C30006D2E5E /* Roboto-Regular.ttf */; };
 		E77B42D91AD2FD9F00D92541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B42D81AD2FD9F00D92541 /* AppDelegate.swift */; };
 		E77B42DB1AD2FD9F00D92541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B42DA1AD2FD9F00D92541 /* ViewController.swift */; };
 		E77B42DE1AD2FD9F00D92541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77B42DC1AD2FD9F00D92541 /* Main.storyboard */; };
 		E77B42E01AD2FD9F00D92541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77B42DF1AD2FD9F00D92541 /* Images.xcassets */; };
-		E77B42E31AD2FD9F00D92541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77B42E11AD2FD9F00D92541 /* LaunchScreen.xib */; };
 		E77B42EF1AD2FD9F00D92541 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B42EE1AD2FD9F00D92541 /* tipsTests.swift */; };
+		E7977B711AD4981700B48B00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7977B6F1AD4981700B48B00 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E77948091AD4780F006D2E5E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		E779480A1AD4780F006D2E5E /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		E779480B1AD4780F006D2E5E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E779480F1AD47C30006D2E5E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E77948101AD47C30006D2E5E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		E77B42D31AD2FD9F00D92541 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77B42D71AD2FD9F00D92541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77B42D81AD2FD9F00D92541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77B42DA1AD2FD9F00D92541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E77B42DD1AD2FD9F00D92541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E77B42DF1AD2FD9F00D92541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E77B42E21AD2FD9F00D92541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E77B42E81AD2FD9F00D92541 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77B42ED1AD2FD9F00D92541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77B42EE1AD2FD9F00D92541 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		E7977B701AD4981700B48B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E77948071AD4780F006D2E5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E77948081AD4780F006D2E5E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E77948081AD4780F006D2E5E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E779480F1AD47C30006D2E5E /* Roboto-Light.ttf */,
+				E77948101AD47C30006D2E5E /* Roboto-Regular.ttf */,
+				E77948091AD4780F006D2E5E /* OpenSans-Bold.ttf */,
+				E779480A1AD4780F006D2E5E /* OpenSans-Light.ttf */,
+				E779480B1AD4780F006D2E5E /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E77B42CA1AD2FD9F00D92541 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +107,11 @@
 		E77B42D51AD2FD9F00D92541 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				E7977B6F1AD4981700B48B00 /* LaunchScreen.xib */,
 				E77B42D81AD2FD9F00D92541 /* AppDelegate.swift */,
 				E77B42DA1AD2FD9F00D92541 /* ViewController.swift */,
 				E77B42DC1AD2FD9F00D92541 /* Main.storyboard */,
 				E77B42DF1AD2FD9F00D92541 /* Images.xcassets */,
-				E77B42E11AD2FD9F00D92541 /* LaunchScreen.xib */,
 				E77B42D61AD2FD9F00D92541 /* Supporting Files */,
 			);
 			path = tips;
@@ -90,6 +120,7 @@
 		E77B42D61AD2FD9F00D92541 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E77948071AD4780F006D2E5E /* Resources */,
 				E77B42D71AD2FD9F00D92541 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77B42DE1AD2FD9F00D92541 /* Main.storyboard in Resources */,
-				E77B42E31AD2FD9F00D92541 /* LaunchScreen.xib in Resources */,
+				E77948121AD47C30006D2E5E /* Roboto-Regular.ttf in Resources */,
+				E779480C1AD4780F006D2E5E /* OpenSans-Bold.ttf in Resources */,
+				E779480D1AD4780F006D2E5E /* OpenSans-Light.ttf in Resources */,
+				E7977B711AD4981700B48B00 /* LaunchScreen.xib in Resources */,
+				E77948111AD47C30006D2E5E /* Roboto-Light.ttf in Resources */,
+				E779480E1AD4780F006D2E5E /* OpenSans-Regular.ttf in Resources */,
 				E77B42E01AD2FD9F00D92541 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,10 +280,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E77B42E11AD2FD9F00D92541 /* LaunchScreen.xib */ = {
+		E7977B6F1AD4981700B48B00 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E77B42E21AD2FD9F00D92541 /* Base */,
+				E7977B701AD4981700B48B00 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -336,8 +372,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,8 +384,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +445,7 @@
 				E77B42F41AD2FD9F00D92541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E77B42F51AD2FD9F00D92541 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +454,7 @@
 				E77B42F71AD2FD9F00D92541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
