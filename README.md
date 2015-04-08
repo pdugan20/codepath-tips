@@ -1,9 +1,9 @@
 # Codepath Tip Calculator Sample App
 
-## Description:
+### Description:
 This is a simple tip calculator that I created as a part of my submission to the CodePath iOS for Designers class. I added some unique styling to the sample app I created as well as created custom assets for the application icon and launch image.
 
-## Time spent:
+### Time spent:
 1.5 hours spent in total
 
 Completed user stories:
@@ -12,10 +12,10 @@ Completed user stories:
  * [x] Optional: Added custom font (Roboto)
  * [x] Optional: Added branded app icon and launch image
  
-## Notes:
+### Notes:
 I elected to have the keyboard display within viewDidLoad by assigning it as a firstResponder to save the user the additional step of having to provide focus to the bill textField.
 
-## Walkthrough of all user stories:
+### Walkthrough of all user stories:
 ![Video Walkthrough](doogTips.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
