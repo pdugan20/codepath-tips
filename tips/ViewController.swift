@@ -15,13 +15,25 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var tipView: UIView!
+    @IBOutlet weak var totalView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         billField.becomeFirstResponder()
+        
+        self.totalView.alpha = 0
+        
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        UIView.animateWithDuration(0.7, delay: 0.2, options: .CurveEaseIn, animations: { () -> Void in
+            self.totalView.alpha = 1.0
+        }, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
