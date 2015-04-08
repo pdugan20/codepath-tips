@@ -6,7 +6,7 @@ This is a simple tip calculator that I created as a part of my submission to the
 ### Time spent:
 1.5 hours spent in total
 
-Completed user stories:
+### Completed user stories:
  * [x] Required: User can adjust tip between 18%, 20%, or 22%
  * [x] Optional: Changed the colors and fonts of the views to a match a money-green aesthetic
  * [x] Optional: Added custom font (Roboto)
